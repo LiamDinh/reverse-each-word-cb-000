@@ -4,5 +4,5 @@ new_string = ""
 new_sentence.collect do |word|
   new_string = new_string + word.reverse + " "
 end
-new_string
+new_string.rstrip
 end
